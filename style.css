@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+  }
+
+  /*  Mobile first*/
+  .container {
+    border: none;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #middle {
+ /*  border: 3px solid yellow;  */
+  padding-top: 10px;
+  border: none;
+  display: flex;
+ }
+
+  /*  Desktop 2nd*/
+  @media only screen and (min-width: 550px) {
+    .container {
+  /*       border: 3px solid green; */
+        width: 400px;
+        margin: 0 auto;
+    }
+  }
+
+.sub-container{
+
+  /*   border: 3px solid blue; */
+    border: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 120px;
+
+
+
+}
+
+
+div {
+    border: 1px solid gray;
+  }
+
+
+
+.grid {
+  border: 5px solid whitesmoke;
+     background-color: rgba(0,0,0,.5);
+     width: 270px;
+     height: 575px;
+     box-sizing: border-box;
+     display: flex;
+     flex-wrap: wrap;
+     grid-gap: 1px;
+
+
+
+}
+
+
+.block {
+    min-height: 25px;
+    min-width: 25px;
+    max-height: 25px;
+    max-width: 25px;
+    box-sizing: border-box;
+  }
+
+  .taken {
+     min-width: 25px;
+     max-width: 25px;
+     box-sizing: border-box;
+   /*   display: none; */
+   }
+
+.tetromino {
+
+
+  outline-style: groove;
+  outline-color: white;
+  outline-width: thin;
+
+
+
+}
+
+
+.mini-grid {
+  border: 5px solid whitesmoke;
+    width: 103px;
+    height: 103px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1px;
+    background-color: rgba(0,0,0,.5);
+
+
+}
+
+.mini-grid div{
+  height: 30px;
+  width: 30px;
+
+
+
+}
+
+#start-button{
+
+  height: 40px;
+  width: 100px;
+
+
+
+  border-color: white;
+
+
+}
+
+#score {
+padding-left: 5px;
+
+
+}
+
+ h3 {
+
+
+}
